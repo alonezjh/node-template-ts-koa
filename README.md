@@ -102,7 +102,7 @@ DB_PORT     = 8889
 
 ### 生产环境
 
-根目录下：`.env.staging`
+根目录下：`.env.production`
 
 ``` bash
 # 生产环境配置文件
@@ -120,7 +120,7 @@ DB_PORT     = 3306
 
 ## 如何使用
 
-### 下载项目
+### 下载
 
 ``` bash
 git clone git@github.com:alonezjh/node-template-ts-koa.git
