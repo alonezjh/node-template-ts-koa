@@ -120,7 +120,7 @@ DB_PORT     = 3306
 
 ## 如何使用
 
-### 通过cli-manage脚手架（推荐）
+### 通过[cli-manage](https://github.com/alonezjh/cli-manage)脚手架（推荐）
 
 #### 全局安装cli-manage
 
