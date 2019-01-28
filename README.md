@@ -61,7 +61,7 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME
 `.env.staging`
 `.env.production`
 
-注：env配置文件应该加入`gitignore`文件中
+注：env配置文件应该加入`.gitignore`文件中
 
 
 ### 开发环境
@@ -120,45 +120,67 @@ DB_PORT     = 3306
 
 ## 如何使用
 
-### 下载
+### 通过cli-manage脚手架（推荐）
+
+#### 全局安装cli-manage
+
+``` bash
+npm install cli-manage -g
+```
+
+或
+
+``` bash
+yarn add cli-manage -g
+```
+
+#### 下载模版
+
+``` bash
+cm init
+```
+
+### 通过download zip或git clone
+
+#### 下载
 
 ``` bash
 git clone git@github.com:alonezjh/node-template-ts-koa.git
 ```
 
-### 安装依赖
+#### 安装依赖
 
 ``` bash
 yarn
 ```
 
-### 预设命令
+#### 预设命令
 
-#### tslint检测
+##### tslint检测
 
 ``` bash
 yarn lint
 ```
 
-#### 开发环境下运行
+##### 开发环境下运行
 
 ``` bash
 yarn start:dev
 ```
 
-#### 预发布环境下运行
+##### 预发布环境下运行
 
 ``` bash
 yarn start:stage
 ```
 
-#### 生产环境下运行
+##### 生产环境下运行
 
 ``` bash
 yarn start:prod
 ```
 
-#### 打包项目
+##### 打包项目
 
 ``` bash
 yarn build
