@@ -120,7 +120,7 @@ DB_PORT     = 3306
 
 ## 如何使用
 
-### 通过cli-manage脚手架（推荐）
+### 通过cli-manage脚手架（推荐）
 
 #### 全局安装cli-manage
 
@@ -134,7 +134,7 @@ npm install cli-manage -g
 yarn add cli-manage -g
 ```
 
-#### 下载模版
+#### 下载模版
 
 ``` bash
 cm init
